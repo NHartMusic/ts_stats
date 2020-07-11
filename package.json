@@ -1,0 +1,26 @@
+{
+  "name": "ts_stats",
+  "version": "1.0.0",
+  "description": "Typescript application for grabbing stats from a csv file",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NHartMusic/ts_stats.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NHartMusic/ts_stats/issues"
+  },
+  "homepage": "https://github.com/NHartMusic/ts_stats#readme",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
