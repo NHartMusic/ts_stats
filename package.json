@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/NHartMusic/ts_stats#readme",
   "dependencies": {
+    "@types/node": "^14.0.22",
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4"
   }
