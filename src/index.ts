@@ -1,8 +1,7 @@
-import { CSVFileReader } from './CSVFileReader'
-import { dateStringToDate } from './utils'
+import { MatchReader } from './MatchReader'
 import { MatchResult } from './MatchResult'
 
-const reader = new CSVFileReader('football.csv')
+const reader = new MatchReader('football.csv')
 reader.read()
 
 let manUnitedWins = 0
